@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get help with CardVault, the local loyalty-card wallet for iPhone and iPad. Contact developer Bartłomiej Bocian.">
+  <meta name="color-scheme" content="light dark">
+  <title>CardVault · Help &amp; Support</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b7e55'/%3E%3Crect x='6' y='9' width='20' height='14' rx='3' fill='none' stroke='white' stroke-width='2'/%3E%3Cpath d='M7 14h18M10 19h5' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+  <style>
+    :root { color-scheme: light dark; --bg: #f7faf8; --panel: #fff; --ink: #17251e; --muted: #4d6256; --line: #d9e4dd; --accent: #086b47; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 1rem/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .wrap { max-width: 780px; margin: auto; padding: 0 24px; }
+    header { border-bottom: 1px solid var(--line); }
+    header .wrap { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px 24px; padding-top: 22px; padding-bottom: 22px; }
+    .brand { font-size: 1.3rem; font-weight: 750; letter-spacing: -.04em; color: var(--ink); text-decoration: none; }
+    nav { display: flex; gap: 20px; flex-wrap: wrap; }
+    a { color: var(--accent); text-underline-offset: 4px; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; border-radius: 3px; }
+    nav a { display: inline-block; padding: 8px 0; }
+    nav a[aria-current] { font-weight: 700; }
+    main { padding-top: 42px; padding-bottom: 48px; }
+    h1 { font-size: clamp(2rem, 6vw, 2.8rem); line-height: 1.2; letter-spacing: -.05em; margin: 0 0 14px; }
+    h2 { font-size: 1.25rem; line-height: 1.35; letter-spacing: -.02em; margin: 30px 0 10px; }
+    p { margin: 10px 0 16px; }
+    .intro { color: var(--muted); }
+    .contact { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 20px 24px; margin: 28px 0; }
+    .contact p { margin: 0; }
+    .contact a { font-size: 1.15rem; font-weight: 650; }
+    ul { padding-left: 22px; }
+    li { margin: 6px 0; }
+    footer { border-top: 1px solid var(--line); padding: 22px 0 32px; color: var(--muted); font-size: .9rem; }
+    footer p { margin: 0; }
+    @media (max-width: 480px) { .wrap { padding-left: 20px; padding-right: 20px; } main { padding-top: 30px; } .contact { padding: 18px; } }
+    @media (prefers-color-scheme: dark) { :root { --bg: #101813; --panel: #17231b; --ink: #edf5ef; --muted: #b5c9bc; --line: #34473a; --accent: #76e0b0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="./">CardVault</a>
+      <nav aria-label="Main navigation">
+        <a href="./" aria-current="page">Help &amp; Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <h1>Help &amp; Support</h1>
+    <p class="intro">CardVault stores your loyalty and membership cards on your device. It is developed by Bartłomiej Bocian and is free to use.</p>
+    <div class="contact">
+      <p>For help, questions, or feedback, email</p>
+      <p><a href="mailto:old.stoork@gmail.com">old.stoork@gmail.com</a></p>
+    </div>
+    <section aria-labelledby="add-card">
+      <h2 id="add-card">Adding a card</h2>
+      <p>Open Cards and tap Add card, or open the Scan tab. Allow camera access when asked, keep the barcode visible, avoid glare, and hold your device steady. Check the scanned number before saving.</p>
+      <p>If the camera is unavailable or a barcode is difficult to read, choose Enter number manually. Manual entry works without camera permission.</p>
+    </section>
+    <section aria-labelledby="camera">
+      <h2 id="camera">Camera permission</h2>
+      <p>If you previously declined permission, open your device’s Settings, find CardVault, and enable Camera access. You can continue using manual entry if you prefer.</p>
+    </section>
+    <section aria-labelledby="wallet">
+      <h2 id="wallet">Trouble opening your wallet</h2>
+      <p>Tap Try Again on the recovery screen. If the problem continues, close and reopen CardVault, then contact support. Retry opens the same local wallet; it does not intentionally reset your cards.</p>
+      <p>Avoid deleting or reinstalling the app as a troubleshooting step, because this can remove your locally stored cards. Support cannot access your wallet remotely or guarantee recovery from a damaged database.</p>
+    </section>
+    <section aria-labelledby="report">
+      <h2 id="report">What to include in a support message</h2>
+      <ul>
+        <li>Your CardVault version and build, shown in Settings and on the recovery screen.</li>
+        <li>Your iOS version and device model.</li>
+        <li>A description of what happened and the steps that led to it.</li>
+      </ul>
+      <p>Do not send membership numbers, barcode images, personal notes, or wallet database files.</p>
+    </section>
+    <section aria-labelledby="delete">
+      <h2 id="delete">Deleting cards and managing backups</h2>
+      <p>You can delete individual cards from their details or clear all cards in Settings. CardVault has no account or app-operated cloud synchronization. Device backups depend on your system settings and backup provider.</p>
+      <p>Read the <a href="privacy.html">Privacy Policy</a> for information about local storage, support email, and these public pages.</p>
+    </section>
+  </main>
+  <footer><div class="wrap"><p>CardVault · Bartłomiej Bocian</p></div></footer>
+</body>
+</html>
